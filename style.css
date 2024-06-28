@@ -1,0 +1,259 @@
+.content {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.photo-1 {
+    width: 100px;
+    transition: 0.5s in;
+}
+
+.photo-1:hover {
+    transform: scale(0.9);
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    transition: all 0.5s ease;
+    opacity: 0;
+    height: 2px;
+    width: 0%;
+    content: '';
+    background-color: #d9ca23;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+    width: 100%;
+}
+
+.back {
+    background-image: url("Agriflow_boy.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.content_box {
+    padding-top: 10%;
+    width: 55%;
+    margin-left: 20px;
+}
+
+.head-1 {
+    font-size: 55px;
+    -webkit-text-stroke: 2px #ffffff;
+    -webkit-text-fill-color: transparent;
+}
+
+.head-4 {
+    font-size: 35px;
+    -webkit-text-stroke: 2px #ffffff;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.head-2 {
+    margin-top: 20px;
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.head-3 {
+    padding-top: 10px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.mar {
+    margin-top: 40px;
+}
+
+.para {
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.para-1 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.para-2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.butt-1 {
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #94890f;
+    border-width: 0px;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    transition: 0.2s ease-in;
+}
+
+.butt-2 {
+    color: #ffffff;
+    font-size: 25px;
+    background-color: transparent;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: #E2D5C7;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    transition: 0.2s ease-in;
+}
+
+.butt-1:hover {
+    transform: scale(0.9);
+}
+
+.butt-2:hover {
+    transform: scale(0.9);
+    background-color: #ffffff;
+    color: #94890f;
+}
+
+.back-2 {
+    background-color: #0F1014;
+    width: 102vw;
+}
+
+.photo {
+    height: 200px;
+    width: 100%;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.features_card {
+    padding: 10px;
+    height: 460px;
+    width: 100px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    transition: 0.3s ease;
+    border-radius: 20px;
+}
+
+.features_card:hover {
+    cursor: pointer;
+    border-color: #94890f;
+    transform: scale(0.95);
+}
+
+.pad {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 8vh;
+}
+
+.back-6 {
+    padding: 20px;
+    background-color: #0F1014;
+
+}
+
+.image-7 {
+    height: 25px;
+}
+
+.icon-div {
+    background-color: #202b36;
+    height: 35px;
+    width: 35px;
+    border-radius: 40px;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 8px;
+    transition: 0.2s ease;
+}
+
+.icon-div:hover {
+    background-color: #d9ca23;
+    cursor: pointer;
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 20px;
+}
+
+.icon-2 {
+    font-size: 20px;
+}
+
+.hed {
+    font-size: 25px;
+}
+
+.para-3 {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+.para-4 {
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.para-4:hover {
+    color: #d9ca23;
+    cursor: pointer;
+}
+
+.color {
+    color: #5a7184;
+}
+
+.line {
+    background-color: #5a7184;
+    height: 1px;
+    width: 98vw;
+}
+
+.hide {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 0.8s;
+}
+
+.visible {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
